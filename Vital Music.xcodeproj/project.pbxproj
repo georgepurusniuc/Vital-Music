@@ -1,0 +1,687 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		48032AB1193ACA09008326BA /* CheckRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 48032AB0193ACA09008326BA /* CheckRequest.m */; };
+		48111146193A431100198FF5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48111145193A431100198FF5 /* Foundation.framework */; };
+		48111148193A431100198FF5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48111147193A431100198FF5 /* CoreGraphics.framework */; };
+		4811114A193A431100198FF5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48111149193A431100198FF5 /* UIKit.framework */; };
+		48111150193A431100198FF5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4811114E193A431100198FF5 /* InfoPlist.strings */; };
+		48111152193A431100198FF5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 48111151193A431100198FF5 /* main.m */; };
+		48111156193A431100198FF5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 48111155193A431100198FF5 /* AppDelegate.m */; };
+		48111165193A431100198FF5 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48111164193A431100198FF5 /* XCTest.framework */; };
+		48111166193A431100198FF5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48111145193A431100198FF5 /* Foundation.framework */; };
+		48111167193A431100198FF5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48111149193A431100198FF5 /* UIKit.framework */; };
+		4811116F193A431100198FF5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4811116D193A431100198FF5 /* InfoPlist.strings */; };
+		48111171193A431100198FF5 /* Vital_MusicTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 48111170193A431100198FF5 /* Vital_MusicTests.m */; };
+		4811117D193A433500198FF5 /* PlaylistViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4811117B193A433500198FF5 /* PlaylistViewController.m */; };
+		4811117E193A433500198FF5 /* PlaylistViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4811117C193A433500198FF5 /* PlaylistViewController.xib */; };
+		48111183193A4B1D00198FF5 /* BaseRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 48111182193A4B1D00198FF5 /* BaseRequest.m */; };
+		48111187193A4B8000198FF5 /* NGUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 48111186193A4B8000198FF5 /* NGUtils.m */; };
+		4811118D193A4D7400198FF5 /* pause_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 48111189193A4D7400198FF5 /* pause_button.png */; };
+		4811118E193A4D7400198FF5 /* pause_button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4811118A193A4D7400198FF5 /* pause_button@2x.png */; };
+		4811118F193A4D7400198FF5 /* play_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 4811118B193A4D7400198FF5 /* play_button.png */; };
+		48111190193A4D7400198FF5 /* play_button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4811118C193A4D7400198FF5 /* play_button@2x.png */; };
+		48111192193A4DEA00198FF5 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 48111191193A4DEA00198FF5 /* Default-568h@2x.png */; };
+		48111194193A508400198FF5 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48111193193A508400198FF5 /* CoreMedia.framework */; };
+		48111196193A508E00198FF5 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48111195193A508E00198FF5 /* AVFoundation.framework */; };
+		48111198193A509700198FF5 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48111197193A509700198FF5 /* MediaPlayer.framework */; };
+		4811119A193A8C8F00198FF5 /* UPPlatformSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48111199193A8C8F00198FF5 /* UPPlatformSDK.framework */; };
+		4811119E193A8CAF00198FF5 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4811119C193A8CAF00198FF5 /* LoginViewController.m */; };
+		4811119F193A8CAF00198FF5 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4811119D193A8CAF00198FF5 /* LoginViewController.xib */; };
+		481111A7193A96E000198FF5 /* GetPlaylistRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 481111A6193A96E000198FF5 /* GetPlaylistRequest.m */; };
+		481111AC193A98F700198FF5 /* Song.m in Sources */ = {isa = PBXBuildFile; fileRef = 481111AB193A98F700198FF5 /* Song.m */; };
+		481111B0193A9BF400198FF5 /* CustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 481111AE193A9BF400198FF5 /* CustomCell.m */; };
+		481111B1193A9BF400198FF5 /* CustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 481111AF193A9BF400198FF5 /* CustomCell.xib */; };
+		8812C883356741E1AEABD608 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AEE3399E27A14F9DA0E85C68 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		48111168193A431100198FF5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4811113A193A431100198FF5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 48111141193A431100198FF5;
+			remoteInfo = "Vital Music";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		48032AAF193ACA09008326BA /* CheckRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckRequest.h; sourceTree = "<group>"; };
+		48032AB0193ACA09008326BA /* CheckRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckRequest.m; sourceTree = "<group>"; };
+		48111142193A431100198FF5 /* Vital Music.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Vital Music.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		48111145193A431100198FF5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		48111147193A431100198FF5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		48111149193A431100198FF5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4811114D193A431100198FF5 /* Vital Music-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Vital Music-Info.plist"; sourceTree = "<group>"; };
+		4811114F193A431100198FF5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		48111151193A431100198FF5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		48111153193A431100198FF5 /* Vital Music-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Vital Music-Prefix.pch"; sourceTree = "<group>"; };
+		48111154193A431100198FF5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		48111155193A431100198FF5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		48111163193A431100198FF5 /* Vital MusicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Vital MusicTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		48111164193A431100198FF5 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		4811116C193A431100198FF5 /* Vital MusicTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Vital MusicTests-Info.plist"; sourceTree = "<group>"; };
+		4811116E193A431100198FF5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		48111170193A431100198FF5 /* Vital_MusicTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Vital_MusicTests.m; sourceTree = "<group>"; };
+		4811117A193A433500198FF5 /* PlaylistViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlaylistViewController.h; sourceTree = "<group>"; };
+		4811117B193A433500198FF5 /* PlaylistViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlaylistViewController.m; sourceTree = "<group>"; };
+		4811117C193A433500198FF5 /* PlaylistViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PlaylistViewController.xib; sourceTree = "<group>"; };
+		48111181193A4B1D00198FF5 /* BaseRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseRequest.h; sourceTree = "<group>"; };
+		48111182193A4B1D00198FF5 /* BaseRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseRequest.m; sourceTree = "<group>"; };
+		48111185193A4B8000198FF5 /* NGUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NGUtils.h; sourceTree = "<group>"; };
+		48111186193A4B8000198FF5 /* NGUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NGUtils.m; sourceTree = "<group>"; };
+		48111189193A4D7400198FF5 /* pause_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pause_button.png; sourceTree = "<group>"; };
+		4811118A193A4D7400198FF5 /* pause_button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pause_button@2x.png"; sourceTree = "<group>"; };
+		4811118B193A4D7400198FF5 /* play_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play_button.png; sourceTree = "<group>"; };
+		4811118C193A4D7400198FF5 /* play_button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "play_button@2x.png"; sourceTree = "<group>"; };
+		48111191193A4DEA00198FF5 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		48111193193A508400198FF5 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		48111195193A508E00198FF5 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		48111197193A509700198FF5 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		48111199193A8C8F00198FF5 /* UPPlatformSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UPPlatformSDK.framework; sourceTree = "<group>"; };
+		4811119B193A8CAF00198FF5 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		4811119C193A8CAF00198FF5 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		4811119D193A8CAF00198FF5 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		481111A5193A96E000198FF5 /* GetPlaylistRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetPlaylistRequest.h; sourceTree = "<group>"; };
+		481111A6193A96E000198FF5 /* GetPlaylistRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetPlaylistRequest.m; sourceTree = "<group>"; };
+		481111AA193A98F700198FF5 /* Song.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Song.h; sourceTree = "<group>"; };
+		481111AB193A98F700198FF5 /* Song.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Song.m; sourceTree = "<group>"; };
+		481111AD193A9BF400198FF5 /* CustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCell.h; sourceTree = "<group>"; };
+		481111AE193A9BF400198FF5 /* CustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCell.m; sourceTree = "<group>"; };
+		481111AF193A9BF400198FF5 /* CustomCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomCell.xib; sourceTree = "<group>"; };
+		AEE3399E27A14F9DA0E85C68 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAFE910ACB884DE39CD34B61 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4811113F193A431100198FF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48111198193A509700198FF5 /* MediaPlayer.framework in Frameworks */,
+				48111196193A508E00198FF5 /* AVFoundation.framework in Frameworks */,
+				48111194193A508400198FF5 /* CoreMedia.framework in Frameworks */,
+				48111148193A431100198FF5 /* CoreGraphics.framework in Frameworks */,
+				4811114A193A431100198FF5 /* UIKit.framework in Frameworks */,
+				48111146193A431100198FF5 /* Foundation.framework in Frameworks */,
+				8812C883356741E1AEABD608 /* libPods.a in Frameworks */,
+				4811119A193A8C8F00198FF5 /* UPPlatformSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48111160193A431100198FF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48111165193A431100198FF5 /* XCTest.framework in Frameworks */,
+				48111167193A431100198FF5 /* UIKit.framework in Frameworks */,
+				48111166193A431100198FF5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		48032AAE193AC9F9008326BA /* CheckRequest */ = {
+			isa = PBXGroup;
+			children = (
+				48032AAF193ACA09008326BA /* CheckRequest.h */,
+				48032AB0193ACA09008326BA /* CheckRequest.m */,
+			);
+			name = CheckRequest;
+			sourceTree = "<group>";
+		};
+		48111139193A431100198FF5 = {
+			isa = PBXGroup;
+			children = (
+				4811114B193A431100198FF5 /* Vital Music */,
+				48111188193A4D7400198FF5 /* MusicPlayerResources */,
+				4811114C193A431100198FF5 /* Supporting Files */,
+				4811116A193A431100198FF5 /* Vital MusicTests */,
+				48111144193A431100198FF5 /* Frameworks */,
+				48111143193A431100198FF5 /* Products */,
+				EAFE910ACB884DE39CD34B61 /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		48111143193A431100198FF5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				48111142193A431100198FF5 /* Vital Music.app */,
+				48111163193A431100198FF5 /* Vital MusicTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		48111144193A431100198FF5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				48111199193A8C8F00198FF5 /* UPPlatformSDK.framework */,
+				48111197193A509700198FF5 /* MediaPlayer.framework */,
+				48111195193A508E00198FF5 /* AVFoundation.framework */,
+				48111193193A508400198FF5 /* CoreMedia.framework */,
+				48111145193A431100198FF5 /* Foundation.framework */,
+				48111147193A431100198FF5 /* CoreGraphics.framework */,
+				48111149193A431100198FF5 /* UIKit.framework */,
+				48111164193A431100198FF5 /* XCTest.framework */,
+				AEE3399E27A14F9DA0E85C68 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4811114B193A431100198FF5 /* Vital Music */ = {
+			isa = PBXGroup;
+			children = (
+				481111A8193A98E100198FF5 /* Models */,
+				48111154193A431100198FF5 /* AppDelegate.h */,
+				48111155193A431100198FF5 /* AppDelegate.m */,
+				48111184193A4B7600198FF5 /* Utils */,
+				4811117F193A4AFF00198FF5 /* Requests */,
+				481111A0193A8CD600198FF5 /* Controllers */,
+			);
+			path = "Vital Music";
+			sourceTree = "<group>";
+		};
+		4811114C193A431100198FF5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4811114D193A431100198FF5 /* Vital Music-Info.plist */,
+				4811114E193A431100198FF5 /* InfoPlist.strings */,
+				48111151193A431100198FF5 /* main.m */,
+				48111153193A431100198FF5 /* Vital Music-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			path = "Vital Music";
+			sourceTree = "<group>";
+		};
+		4811116A193A431100198FF5 /* Vital MusicTests */ = {
+			isa = PBXGroup;
+			children = (
+				48111170193A431100198FF5 /* Vital_MusicTests.m */,
+				4811116B193A431100198FF5 /* Supporting Files */,
+			);
+			path = "Vital MusicTests";
+			sourceTree = "<group>";
+		};
+		4811116B193A431100198FF5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4811116C193A431100198FF5 /* Vital MusicTests-Info.plist */,
+				4811116D193A431100198FF5 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4811117F193A4AFF00198FF5 /* Requests */ = {
+			isa = PBXGroup;
+			children = (
+				48032AAE193AC9F9008326BA /* CheckRequest */,
+				481111A4193A96CA00198FF5 /* GetPlaylistRequest */,
+				48111180193A4B0600198FF5 /* BaseRequest */,
+			);
+			name = Requests;
+			sourceTree = "<group>";
+		};
+		48111180193A4B0600198FF5 /* BaseRequest */ = {
+			isa = PBXGroup;
+			children = (
+				48111181193A4B1D00198FF5 /* BaseRequest.h */,
+				48111182193A4B1D00198FF5 /* BaseRequest.m */,
+			);
+			name = BaseRequest;
+			sourceTree = "<group>";
+		};
+		48111184193A4B7600198FF5 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				48111185193A4B8000198FF5 /* NGUtils.h */,
+				48111186193A4B8000198FF5 /* NGUtils.m */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		48111188193A4D7400198FF5 /* MusicPlayerResources */ = {
+			isa = PBXGroup;
+			children = (
+				48111191193A4DEA00198FF5 /* Default-568h@2x.png */,
+				48111189193A4D7400198FF5 /* pause_button.png */,
+				4811118A193A4D7400198FF5 /* pause_button@2x.png */,
+				4811118B193A4D7400198FF5 /* play_button.png */,
+				4811118C193A4D7400198FF5 /* play_button@2x.png */,
+			);
+			path = MusicPlayerResources;
+			sourceTree = "<group>";
+		};
+		481111A0193A8CD600198FF5 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				481111A1193A8CE100198FF5 /* LoginViewController */,
+				481111A2193A8CEC00198FF5 /* PlaylistViewController */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		481111A1193A8CE100198FF5 /* LoginViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4811119B193A8CAF00198FF5 /* LoginViewController.h */,
+				4811119C193A8CAF00198FF5 /* LoginViewController.m */,
+				4811119D193A8CAF00198FF5 /* LoginViewController.xib */,
+			);
+			name = LoginViewController;
+			sourceTree = "<group>";
+		};
+		481111A2193A8CEC00198FF5 /* PlaylistViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4811117A193A433500198FF5 /* PlaylistViewController.h */,
+				4811117B193A433500198FF5 /* PlaylistViewController.m */,
+				4811117C193A433500198FF5 /* PlaylistViewController.xib */,
+				481111AD193A9BF400198FF5 /* CustomCell.h */,
+				481111AE193A9BF400198FF5 /* CustomCell.m */,
+				481111AF193A9BF400198FF5 /* CustomCell.xib */,
+			);
+			name = PlaylistViewController;
+			sourceTree = "<group>";
+		};
+		481111A4193A96CA00198FF5 /* GetPlaylistRequest */ = {
+			isa = PBXGroup;
+			children = (
+				481111A5193A96E000198FF5 /* GetPlaylistRequest.h */,
+				481111A6193A96E000198FF5 /* GetPlaylistRequest.m */,
+			);
+			name = GetPlaylistRequest;
+			sourceTree = "<group>";
+		};
+		481111A8193A98E100198FF5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				481111A9193A98E900198FF5 /* Song */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		481111A9193A98E900198FF5 /* Song */ = {
+			isa = PBXGroup;
+			children = (
+				481111AA193A98F700198FF5 /* Song.h */,
+				481111AB193A98F700198FF5 /* Song.m */,
+			);
+			name = Song;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		48111141193A431100198FF5 /* Vital Music */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48111174193A431100198FF5 /* Build configuration list for PBXNativeTarget "Vital Music" */;
+			buildPhases = (
+				B26769B59BF24CE6A94058CD /* Check Pods Manifest.lock */,
+				4811113E193A431100198FF5 /* Sources */,
+				4811113F193A431100198FF5 /* Frameworks */,
+				48111140193A431100198FF5 /* Resources */,
+				A2DEB3B724EB494F89E74607 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Vital Music";
+			productName = "Vital Music";
+			productReference = 48111142193A431100198FF5 /* Vital Music.app */;
+			productType = "com.apple.product-type.application";
+		};
+		48111162193A431100198FF5 /* Vital MusicTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48111177193A431100198FF5 /* Build configuration list for PBXNativeTarget "Vital MusicTests" */;
+			buildPhases = (
+				4811115F193A431100198FF5 /* Sources */,
+				48111160193A431100198FF5 /* Frameworks */,
+				48111161193A431100198FF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				48111169193A431100198FF5 /* PBXTargetDependency */,
+			);
+			name = "Vital MusicTests";
+			productName = "Vital MusicTests";
+			productReference = 48111163193A431100198FF5 /* Vital MusicTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4811113A193A431100198FF5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "George Purusniuc";
+				TargetAttributes = {
+					48111162193A431100198FF5 = {
+						TestTargetID = 48111141193A431100198FF5;
+					};
+				};
+			};
+			buildConfigurationList = 4811113D193A431100198FF5 /* Build configuration list for PBXProject "Vital Music" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 48111139193A431100198FF5;
+			productRefGroup = 48111143193A431100198FF5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				48111141193A431100198FF5 /* Vital Music */,
+				48111162193A431100198FF5 /* Vital MusicTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		48111140193A431100198FF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4811119F193A8CAF00198FF5 /* LoginViewController.xib in Resources */,
+				48111190193A4D7400198FF5 /* play_button@2x.png in Resources */,
+				4811117E193A433500198FF5 /* PlaylistViewController.xib in Resources */,
+				4811118E193A4D7400198FF5 /* pause_button@2x.png in Resources */,
+				4811118F193A4D7400198FF5 /* play_button.png in Resources */,
+				48111150193A431100198FF5 /* InfoPlist.strings in Resources */,
+				481111B1193A9BF400198FF5 /* CustomCell.xib in Resources */,
+				48111192193A4DEA00198FF5 /* Default-568h@2x.png in Resources */,
+				4811118D193A4D7400198FF5 /* pause_button.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48111161193A431100198FF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4811116F193A431100198FF5 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A2DEB3B724EB494F89E74607 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B26769B59BF24CE6A94058CD /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4811113E193A431100198FF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				481111AC193A98F700198FF5 /* Song.m in Sources */,
+				48111183193A4B1D00198FF5 /* BaseRequest.m in Sources */,
+				481111A7193A96E000198FF5 /* GetPlaylistRequest.m in Sources */,
+				48111187193A4B8000198FF5 /* NGUtils.m in Sources */,
+				48032AB1193ACA09008326BA /* CheckRequest.m in Sources */,
+				4811119E193A8CAF00198FF5 /* LoginViewController.m in Sources */,
+				48111156193A431100198FF5 /* AppDelegate.m in Sources */,
+				48111152193A431100198FF5 /* main.m in Sources */,
+				4811117D193A433500198FF5 /* PlaylistViewController.m in Sources */,
+				481111B0193A9BF400198FF5 /* CustomCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4811115F193A431100198FF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48111171193A431100198FF5 /* Vital_MusicTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		48111169193A431100198FF5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 48111141193A431100198FF5 /* Vital Music */;
+			targetProxy = 48111168193A431100198FF5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4811114E193A431100198FF5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4811114F193A431100198FF5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4811116D193A431100198FF5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4811116E193A431100198FF5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		48111172193A431100198FF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		48111173193A431100198FF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		48111175193A431100198FF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EAFE910ACB884DE39CD34B61 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Vital Music/Vital Music-Prefix.pch";
+				INFOPLIST_FILE = "Vital Music/Vital Music-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		48111176193A431100198FF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EAFE910ACB884DE39CD34B61 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Vital Music/Vital Music-Prefix.pch";
+				INFOPLIST_FILE = "Vital Music/Vital Music-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		48111178193A431100198FF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Vital Music.app/Vital Music";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Vital Music/Vital Music-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Vital MusicTests/Vital MusicTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		48111179193A431100198FF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Vital Music.app/Vital Music";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Vital Music/Vital Music-Prefix.pch";
+				INFOPLIST_FILE = "Vital MusicTests/Vital MusicTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4811113D193A431100198FF5 /* Build configuration list for PBXProject "Vital Music" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48111172193A431100198FF5 /* Debug */,
+				48111173193A431100198FF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48111174193A431100198FF5 /* Build configuration list for PBXNativeTarget "Vital Music" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48111175193A431100198FF5 /* Debug */,
+				48111176193A431100198FF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48111177193A431100198FF5 /* Build configuration list for PBXNativeTarget "Vital MusicTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48111178193A431100198FF5 /* Debug */,
+				48111179193A431100198FF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4811113A193A431100198FF5 /* Project object */;
+}

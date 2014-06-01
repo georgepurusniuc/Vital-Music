@@ -1,0 +1,21 @@
+PODS:
+  - AFNetworking (1.2.1)
+  - MBProgressHUD (0.8)
+  - SDWebImage (3.6):
+    - SDWebImage/Core
+  - SDWebImage/Core (3.6)
+  - SSPullToRefresh (1.2.0)
+
+DEPENDENCIES:
+  - AFNetworking (~> 1.2.1)
+  - MBProgressHUD (~> 0.6)
+  - SDWebImage (~> 3.2)
+  - SSPullToRefresh (~> 1.2)
+
+SPEC CHECKSUMS:
+  AFNetworking: 7e82cfea05017c338ae62897f0a09ba1a8ebb479
+  MBProgressHUD: c356980b0cd097f19acec959b49dca5eb8ec31be
+  SDWebImage: c6989652c1cdf27cbdf3f56957e2030f825af5bc
+  SSPullToRefresh: bb513a1ccbf08fdd67e4139bc1bbe3fc2ed34228
+
+COCOAPODS: 0.32.1

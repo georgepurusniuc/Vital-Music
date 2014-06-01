@@ -1,0 +1,5 @@
+platform :ios, '7.0'
+pod 'AFNetworking', '~> 1.2.1'
+pod 'MBProgressHUD', '~> 0.6'
+pod 'SDWebImage', '~> 3.2'
+pod 'SSPullToRefresh', '~> 1.2'
